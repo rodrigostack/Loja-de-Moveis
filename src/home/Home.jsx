@@ -2,6 +2,7 @@ import React from 'react'
 import './home.css'
 import Espanha from '../imagens/espanha.gif'
 
+
 export default function Home(){
     return(
         <div className='container-fluid backhome'>
@@ -14,7 +15,9 @@ export default function Home(){
                 </div>
                 
             </div>
+           
 
         </div>
+        
     )
 }
