@@ -1,7 +1,5 @@
-
 import Home from './home/Home'
 import Nav from './nav/Nav'
-
 import Routes from './routers'
 
 import { HashRouter } from 'react-router-dom'

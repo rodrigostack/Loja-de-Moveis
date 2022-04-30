@@ -1,18 +1,17 @@
 import React from "react";
 
-import { Route, Routes } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
-import Home from "./home/Home";
+
 import Contatos from "./contatos/Contatos";
 
-export default function Routers(){
+export default function Mainrouters(){
     return(
       
         <Routes>
-                <Route exact path="/" component ={Home}></Route>
-                <Route exact path="/contatos" component={Contatos}></Route>
-        </Routes>  
-         
+               
+                <Route path="/contatos" element = {<Contatos/>}/>
+         </Routes>
        
     )
 }
