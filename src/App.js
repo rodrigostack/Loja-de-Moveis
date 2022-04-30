@@ -1,14 +1,19 @@
 
 import Home from './home/Home'
 import Nav from './nav/Nav'
-import Contatos from './contatos/Contatos';
+
+import Routes from './routers'
+
+import { HashRouter } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
+      <HashRouter>
         <Home/>
         <Nav/>
-        <Contatos/>
+        <Routes/>
+      </HashRouter>
     </div>
   );
 }
