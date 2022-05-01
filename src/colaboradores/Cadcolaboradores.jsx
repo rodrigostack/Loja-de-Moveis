@@ -31,7 +31,7 @@ export default function Cadastrocolaboradores(){
                         </select>
                      </div>
                      <div class="col-auto">
-                        <button type="submit" class="btn btn-danger mb-3">Cadastrar Colaborador</button>
+                        <button type="submit" className="btn btn-danger mb-3">Cadastrar Colaborador</button>
                     </div>
                 </div>
             </form>
