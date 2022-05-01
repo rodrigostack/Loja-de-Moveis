@@ -1,0 +1,32 @@
+.divdefault{
+    background-color:rgb(233, 171, 78);
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid brown;
+}
+.formcadcolaborador{
+    background-color:rgb(243, 233, 143);
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid brown;
+}
+
+.labelformcadcol{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px darkkhaki;
+
+}
+
+.divheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.haheader{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-weight: bold;
+}
