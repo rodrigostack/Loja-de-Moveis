@@ -25,7 +25,7 @@ export default function Nav(){
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><Link className="dropdown-item" to="/cadcolaboradores">Cadastrar</Link></li>
-                        <li><a className="dropdown-item" to="#">Colaboradores</a></li>
+                        <li><Link className="dropdown-item" to="/cadastrados">Colaboradores</Link></li>
                         
                     </ul>
                     
