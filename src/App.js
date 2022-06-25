@@ -1,6 +1,7 @@
 import Home from './home/Home'
 import Nav from './nav/Nav'
 import Routes from './routers'
+import Rodape from './footer/Rodape.jsx'
 
 import { HashRouter } from 'react-router-dom'
 
@@ -11,6 +12,7 @@ function App() {
         <Home/>
         <Nav/>
         <Routes/>
+        <Rodape/>
       </HashRouter>
     </div>
   );
