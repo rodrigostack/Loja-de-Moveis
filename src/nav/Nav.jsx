@@ -31,11 +31,11 @@ export default function Nav(){
                     
                     </li>
                     <li className="nav-item dropdown">
-                    <Link className="nav-link dropdown-toggle active" to="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Clientes
-                    </Link>
+                    </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><Link className="dropdown-item" to="#">Cadastrar</Link></li>
+                        <li><Link className="dropdown-item" to="/cadastrocliente">Cadastrar</Link></li>
                         <li><Link className="dropdown-item" to="#">Clientes</Link></li>
                         
                     </ul>

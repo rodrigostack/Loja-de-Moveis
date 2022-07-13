@@ -30,7 +30,7 @@ export default function Cadastrocolaboradores(){
                             <option value="Integral">Integral</option>
                         </select>
                      </div>
-                     <div class="col-auto">
+                     <div className="col-auto">
                         <button type="submit" className="btn btn-danger mb-3">Cadastrar Colaborador</button>
                     </div>
                 </div>
